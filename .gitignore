@@ -1,0 +1,23 @@
+# Python virtual environment (located in the notebooks folder)
+training/notebooks/venv/
+
+# Python cache
+**/__pycache__/
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Large dataset folders
+training/datasets/asl/asl_alphabet_train/
+training/datasets/asl/asl_alphabet_test/
+
+# Preprocessed data
+training/datasets/asl/preprocessed_train/
+
+# Saved models and temporary files in the notebooks directory
+training/notebooks/best_model.pth
+training/notebooks/X_preprocessed.npy
+training/notebooks/y_preprocessed.npy
+
+# Saved models in the models directory
+training/models/
